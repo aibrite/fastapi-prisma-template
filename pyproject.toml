@@ -1,0 +1,15 @@
+[project]
+name = "fastapi-prisma-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "asyncpg>=0.30.0",
+    "chainlit>=2.6.9",
+    "dotenv>=0.9.9",
+    "fastapi>=0.116.1",
+    "fastapi-versioning>=0.10.0",
+    "loguru>=0.7.3",
+    "prisma>=0.15.0",
+]
